@@ -56,7 +56,7 @@ public class QuickSort {
 				break;
 			}
 		}
-		swapReferences(a, b, r);//Fix me
+		swapReferences(a, b, r);
 		return l;
 	}
 }
