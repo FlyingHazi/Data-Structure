@@ -32,6 +32,9 @@ public class HeapSort {
             if(a[i].compareTo(a[child])<0)
             {
                 swapReference(a,i,child);
+            }else
+            {
+                break;
             }
         }
     }
